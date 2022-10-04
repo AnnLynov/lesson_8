@@ -1,0 +1,217 @@
+@import url("reset.css");
+.game {
+   width: 1000px;
+   height: 600px;
+   margin: 0 auto;
+   background: grey url("../img/rita.jpg") center / 200px 250px no-repeat;
+   padding: 20px;
+}
+.game div:not(:last-child) {
+   background-color: #fff;
+}
+.game div:last-of-type {
+   background-color: rgb(227, 157, 157);
+   padding: 10px 0 0 5px;
+}
+.image img{
+   max-width: 250px;
+}
+.image {
+   margin: -450px 0 0 610px;
+   display: none;
+}
+.zero {
+   width: 200px;
+   height: 250px;
+   background-color: #fff;
+   margin: 155px 0 0 380px;
+   opacity: 0;
+}
+a {
+   font-size: 20px;
+   font-weight: 700;
+   color: blueviolet;
+}
+.line1 {
+   width: 200px;
+   height: 50px;
+   margin: -245px 0 0 180px;
+   visibility: hidden;
+}
+.line2 {
+   width: 50px;
+   height: 300px;
+   margin: 0 0 0 180px;
+   visibility: hidden;
+}
+.line3 {
+   width: 150px;
+   height: 50px;
+   margin: -50px 0 0 180px;
+   visibility: hidden;
+}
+.line4 {
+   width: 50px;
+   height: 100px;
+   margin: -50px 0 0 280px;
+   visibility: hidden;
+}
+.line5 {
+   width: 200px;
+   height: 30px;
+   margin: -30px 0 0 280px;
+   visibility: hidden;
+}
+.line6 {
+   width: 40px;
+   height: 120px;
+   margin: -120px 0 0 450px;
+   visibility: hidden;
+}
+.line7 {
+   width: 300px;
+   height: 25px;
+   margin: -125px 0 0 450px;
+   visibility: hidden;
+}
+.line8 {
+   width: 40px;
+   height: 80px;
+   margin: -25px 0 0 710px;
+   visibility: hidden;
+}
+.line9 {
+   width: 150px;
+   height: 40px;
+   margin: -40px 0 0 710px;
+   visibility: hidden;
+}
+.line10 {
+   width: 20px;
+   height: 500px;
+   margin: -500px 0 0 840px;
+   visibility: hidden;
+}
+.line11 {
+   width: 850px;
+   height: 20px;
+   margin: -500px 0 0 10px;
+   visibility: hidden;
+}
+.line12 {
+   width: 40px;
+   height: 100px;
+   margin: -20px 0 0 10px;
+   visibility: hidden;
+}
+.line13 {
+   width: 650px;
+   height: 20px;
+   margin: -20px 0 0 10px;
+   visibility: hidden;
+}
+.line14 {
+   width: 40px;
+   height: 200px;
+   margin: -20px 0 0 620px;
+   visibility: hidden;
+}
+.line15 {
+   width: 150px;
+   height: 30px;
+   margin: -30px 0 0 620px;
+   visibility: hidden;
+}
+.line16 {
+   width: 50px;
+   height: 100px;
+   margin: -30px 0 0 720px;
+   visibility: hidden;
+}
+.line17 {
+   width: 150px;
+   height: 20px;
+   margin: -20px 0 0 620px;
+   visibility: hidden;
+}
+.line18 {
+   width: 50px;
+   height: 50px;
+   margin: -20px 0 0 620px;
+   visibility: hidden;
+}
+.zero:hover + .line1,
+.line1:hover {
+   visibility: visible;
+}
+.line1:hover + .line2,
+.line2:hover {
+   visibility: visible;
+}
+.line2:hover + .line3,
+.line3:hover {
+   visibility: visible;
+}
+.line3:hover + .line4,
+.line4:hover {
+   visibility: visible;
+}
+.line4:hover + .line5,
+.line5:hover {
+   visibility: visible;
+}
+.line5:hover + .line6,
+.line6:hover {
+   visibility: visible;
+}
+.line6:hover + .line7,
+.line7:hover {
+   visibility: visible;
+}
+.line7:hover + .line8,
+.line8:hover {
+   visibility: visible;
+}
+.line8:hover + .line9,
+.line9:hover {
+   visibility: visible;
+}
+.line9:hover + .line10,
+.line10:hover {
+   visibility: visible;
+}
+.line10:hover + .line11,
+.line11:hover {
+   visibility: visible;
+}
+.line11:hover + .line12,
+.line12:hover {
+   visibility: visible;
+}
+.line12:hover + .line13,
+.line13:hover {
+   visibility: visible;
+}
+.line13:hover + .line14,
+.line14:hover {
+   visibility: visible;
+}
+.line14:hover + .line15,
+.line15:hover {
+   visibility: visible;
+}
+.line15:hover + .line16,
+.line16:hover {
+   visibility: visible;
+}
+.line16:hover + .line17,
+.line17:hover {
+   visibility: visible;
+}
+.line17:hover + .line18,
+.line18:hover {
+   visibility: visible;
+}
+#image:target {
+   display: block;
+}
